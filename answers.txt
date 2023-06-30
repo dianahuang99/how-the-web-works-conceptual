@@ -1,0 +1,26 @@
+What is HTTP?
+HTTP (Hypertext Transfer Protocol) is a protocol used for communication between web browsers and web servers, allowing the transfer of data and resources over the internet.
+
+What is a URL?
+A URL (Uniform Resource Locator) is the address that identifies a specific resource on the internet, such as a web page or file.
+
+What is DNS?
+DNS (Domain Name System) is a system that translates domain names (e.g., google.com) into IP addresses, allowing browsers to locate and connect to websites.
+
+What is a query string?
+A query string is a part of a URL that contains additional data passed to a web server for processing, often used for specifying parameters or search terms.
+
+What are two HTTP verbs and how are they different?
+Two common HTTP verbs are GET and POST. GET is used to retrieve data from a server, while POST is used to send data to a server to create or modify resources.
+
+What is an HTTP request?
+An HTTP request is a message sent by a client (e.g., web browser) to a server, specifying the action to be performed.
+
+What is an HTTP response?
+An HTTP response is the message sent by a server to a client in response to an HTTP request, containing the requested data or indicating an error.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+An HTTP header is a component of an HTTP request or response that provides additional information about the request/response. Examples include "Content-Type" (request header) and "Content-Length" (response header).
+What are the processes that happen when you type "http://somesite.com/some/page.html" into a browser?
+
+When you type "http://somesite.com/some/page.html" into a browser, the browser performs DNS lookup to find the IP address of the domain, establishes a TCP connection with the server, sends an HTTP GET request for the specific resource ("/some/page.html"), the server processes the request and sends back an HTTP response with the requested page, and the browser renders and displays the page to the user.
